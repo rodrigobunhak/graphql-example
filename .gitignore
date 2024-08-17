@@ -1,0 +1,49 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+*.out
+
+# Build directories
+/bin/
+/build/
+
+# Vendor directory
+/vendor/
+
+# Go module files
+/go.sum
+/go.work.sum
+
+# IDE/Editor directories and files
+.idea/
+/.vscode/
+/*.iml
+
+# Node modules (if you are using JavaScript/TypeScript within the project)
+node_modules/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Generated files
+graph/generated.go
+graph/model/generated.go
+
+# Coverage reports
+*.cover
+coverage/
+
+# Dependency directories
+/tmp/
+/.gopath/
+
+# Custom config files
+config.yaml
+config.local.yaml
